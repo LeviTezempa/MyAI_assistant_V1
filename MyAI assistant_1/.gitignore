@@ -1,0 +1,30 @@
+
+# Ignore environment files (API keys, secrets)
+new.env
+.env
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore temporary audio and test files
+*.wav
+*.mp3
+temp/
+test_*.py
+
+# Ignore IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore logs and cache
+*.log
+*.cache
